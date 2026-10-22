@@ -1,0 +1,78 @@
+body {
+    background-color: #1f2933;
+    color: #f5f7fa;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    width: 300px;
+}
+
+input {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 13px;
+    background-color: #ff6b35;
+    color: white;
+    cursor: pointer;
+}
+
+.membresias-container {
+    width: 80vw;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.membresia {
+    background-color: mintcream;
+    color: #1f2933;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.membresia p {
+    text-align: center;
+}
+
+.membresia img {
+    display: block;
+    margin: 0.5rem auto 0;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
